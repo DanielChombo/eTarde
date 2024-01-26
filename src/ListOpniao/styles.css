@@ -1,0 +1,29 @@
+.opinion-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 40px 30px;
+}
+.opinion-card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+.opinion-card .opinion-text {
+    display: flex;
+    align-items: center;
+}
+.opinion-card .opinion-text p{
+    margin: 20px 10px 20px 0;
+    width: 90%;
+    
+}
+.opinion-card .opinion-text input{
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 90px;
+}
+
